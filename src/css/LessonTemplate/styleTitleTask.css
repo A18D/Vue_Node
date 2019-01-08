@@ -1,0 +1,99 @@
+.HorizontalContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.Min_Height {
+ min-height: 250px; /* Минимальная высота */
+}
+
+.HorizontalContainer_item_p {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.HorizontalContainer_item_ButtonCircle {
+  background: #c7a303;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #c7a303;
+  /* Параметры границы */
+  -moz-border-radius: 60px;
+  /* Firefox */
+  -webkit-border-radius: 60px;
+  /* Safari 4 */
+  border-radius: 60px;
+  /* IE 9, Safari 5, Chrome */
+  outline: none;
+  box-shadow: 0.1em 0.1em 5px rgba(122, 122, 122, 0.5);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 15px;
+  display: flex;
+  /*Центрирование по вертикали */
+  align-items: center;
+  /*Центрирование по вертикали */
+}
+
+.HorizontalContainer_item_ButtonCircle:active {
+  position: relative;
+  top: 1px;
+}
+
+.HorizontalContainer_item_pTip {
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.HorizontalContainer_item_ButtonTip {
+  background: rgb(65, 138, 233);
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(65, 138, 233);
+  /* Параметры границы */
+  -moz-border-radius: 60px;
+  /* Firefox */
+  -webkit-border-radius: 60px;
+  /* Safari 4 */
+  border-radius: 60px;
+  /* IE 9, Safari 5, Chrome */
+  outline: none;
+  box-shadow: 0.1em 0.1em 5px rgba(122, 122, 122, 0.5);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 15px;
+  display: flex;
+  /*Центрирование по вертикали */
+  align-items: center;
+  /*Центрирование по горизонтали */
+  justify-content: center;
+  margin-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  /* Шрифт с засечками */
+  font-size: 2em;
+  line-height: 17px;
+  position: relative;
+}
+
+.HorizontalContainer_item_ButtonTip:after {
+  /*треугольник*/
+  position: absolute;
+  content: "";
+  bottom: -8px;
+  border: 8px solid transparent;
+  border-right: 14px solid rgb(65, 138, 233);
+  display: block;
+  width: 0;
+  height: 0;
+
+}
+
+.HorizontalContainer_item_ButtonTip:active {
+  position: relative;
+  top: 1px;
+}

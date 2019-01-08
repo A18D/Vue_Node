@@ -1,0 +1,82 @@
+.a-groupContainer{
+    margin-left: 20px;
+  }
+
+.a-groupContainer > a {
+    background-color: white; /* background */
+    color: black; /* text */
+    padding: 8px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    text-decoration: none;
+  
+  }
+  
+  /* Clear floats (clearfix hack) */
+.a-groupContainer > a:after,
+.a-groupContainer .active  > a:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+.a-groupContainer > a:hover,
+.a-groupContainer .active  > a:hover {
+    background-color: rgb(216, 215, 215); /*  background */
+    border-bottom: 1px solid #3a9b8b;  
+    text-decoration: none;
+    color: black; /* text */
+  
+  }
+  
+  /* Add a background color on active */
+.a-groupContainer > a:focus,
+.a-groupContainer .active  > a:focus {
+    background-color: rgb(155, 152, 152); /*  background */
+    border-bottom: 1px solid #3a9b8b;  
+    text-decoration: none;
+    color: black; /* text */
+  
+  }
+
+.navbar-groupGrey {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+.navbar-groupGrey .navbar-nav > li > a {
+    color: black;
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+  
+  }
+  
+.navbar-groupGrey .navbar-nav > li > a:hover,
+.navbar-groupGrey .navbar-nav > li > a:focus {
+    color: black;
+    background-color: rgb(216, 215, 215); /*  background */
+    border-bottom: 1px solid #3a9b8b;  
+  }
+  
+.navbar-groupGrey .navbar-nav  >  .active  > a,
+.navbar-groupGrey .navbar-nav  >  .active  > a:hover,
+.navbar-groupGrey .navbar-nav  >  .active  > a:focus
+  {
+    color: black;
+    background-color: rgb(134, 133, 133); /*  background */
+    border-bottom: 1px solid #3a9b8b;  
+  }
+
+.navbar-groupGrey.navbar-collapse.collapse,
+.navbar-groupGrey.navbar-collapse.collapsing,
+.navbar-groupGrey.navbar-collapse.collapse.in {
+    border-top-color: #ffffff;
+}
+
+.navbar-groupGrey.navbar.navbar-default {
+  height:25px !important; 
+  min-height:25px !important; 
+}

@@ -1,0 +1,242 @@
+.dnd__option {
+  background-color: #153261;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.dnd__answer, .choice__answer {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.dnd__answer-img, .choice__answer-img {
+  background-color: #f2f5f8;
+  height: 150px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.dnd__answer-region {
+  border: 1px solid #000;
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
+  width: 150px;
+}
+
+.dnd__answer-region-table {
+  cursor: pointer;
+  display: table;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.dnd__answer-region-table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dnd__question {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.dnd__tips-region {
+  background-color: #153261;
+  color: #fff;
+  height: 40px;
+  text-align: center;
+  width: 150px;
+}
+
+.dndDraggingSource {
+  display: none;
+}
+
+.dndPlaceholder {
+  background-color: #ddd;
+  display: block;
+  min-height: 38px;
+}
+
+.choice__answer-img {
+  cursor: pointer;
+}
+
+.choice__tips-text, .input__tips-text {
+  padding-bottom: 10px;
+}
+
+.choice__tips-img-level2 {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #d5d5d5;
+}
+
+.choice__tips-right-img-level3 {
+  border: 3px solid #249457;
+}
+
+.input__answer-text {
+  font-size: 20px;
+}
+
+.input__answer-confirm {
+  border: 2px solid #e8425f;
+  font-size: 18px;
+  height: 30px;
+  outline: none;
+  padding: 0 3px;
+  vertical-align: top;
+  width: 40px;
+}
+
+.input__answer-confirm:focus {
+  border-color: #d5d5d5;
+}
+
+.input__tips-options {
+  border: 2px solid;
+  display: inline-block;
+  margin-right: 5px;
+  min-width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.active-container {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.active-container__header {
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  width: 210px;
+  z-index: 10;
+}
+
+.active-container__header:after {
+  content: '';
+}
+
+.active-container__body {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 225px;
+  z-index: 1;
+}
+
+.hint {
+  margin-top: 20px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.hint__header {
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  display: inline-block;
+  left: -25px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  transform: rotate(-90deg);
+  width: 90px;
+}
+
+.hint__body {
+  background-color: #f2f5f8;
+  min-height: 110px;
+  padding: 10px;
+}
+
+.hint__more {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.img-size_s {
+  width: 120px;
+}
+
+.pos_r {
+  position: relative;
+}
+
+.block_center {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ptb_s {
+  padding: 10px 0;
+}
+
+.pt_s {
+  padding-top: 10px;
+}
+
+.bg_blue {
+  background-color: #4fa4da;
+}
+
+.bg_green {
+  background-color: #249457;
+}
+
+.bg_orange {
+  background-color: #faaf18;
+}
+
+.bg_sea_wave {
+  background-color: #08a2a9;
+}
+
+.br_blue {
+  border-color: #4fa4da;
+}
+
+.br_green {
+  border-color: #249457;
+}
+
+.br_orange {
+  border-color: #faaf18;
+}
+
+.br_red {
+  border-color: #e8425f;
+}
+
+.b_s {
+  border: 1px solid #000;
+}
+
+.cursor_clear {
+  cursor: inherit;
+}
+

@@ -1,0 +1,53 @@
+.HorizontalContainerTabTip {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+
+.HorizontalContainer_item_TabTip {
+  padding: 1px 1px 1px 8px;
+  color: #ffffff;
+  /*Центрирование по вертикали */
+  width: 25px;
+  height: 90px;   
+  text-align: center;
+}
+
+.HorizontalContainer_item_ContentTip {
+  background: rgb(224, 220, 220);
+  padding: 20px 20px 20px 40px;
+  color: #000000;
+  width: 100%
+}
+
+.HorizontalContainer_item_ContentTip a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+.VerticalText {
+  width: 80px;
+  height: 90px;
+  -webkit-transform: rotate(270deg);
+  /* разворот текста для разных браузеров */
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.Top40 {
+  margin-top: 40px;
+}
+
+.GreenBackground {
+  background: rgb(29, 126, 4);
+}
+
+.BlueBackground {
+  background: #40BCFE;
+}
+

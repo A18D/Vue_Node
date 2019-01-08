@@ -1,0 +1,165 @@
+footer.page-footer {
+    margin-top:40px;
+    bottom: 0;
+    color: rgb(7, 7, 7); 
+    font-size: 10px;
+    border-top: 50px solid rgb(255, 255, 255); /* Линия справа от текста */
+}
+
+footer.page-footer .container-fluid {
+    width: auto;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(7, 7, 7); 
+}
+
+footer.page-footer a {
+    color: rgb(7, 7, 7); 
+    cursor: pointer ;
+}
+
+/* Clear floats (clearfix hack) */
+.SpaceContainer > a{
+    border-right: 10px solid rgb(255, 255, 255); 
+}
+  
+.SpaceContainer > span{
+    border-right: 10px solid rgb(255, 255, 255); 
+}
+
+.TopSpaceContainer > ul{
+    border-top: 34px solid rgb(255, 255, 255); 
+}
+
+
+
+.FBtn{
+    background: #3b5998;
+    padding: 1px 5px;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3b5998; /* Параметры границы */
+
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+   }
+  
+.FBtn:hover,
+.FBtn:focus,
+.FBtn:focus,
+.FBtn:active:focus,
+.FBtn.active:focus,
+.FBtn.focus,
+.FBtn:active.focus,
+.FBtn.active.focus {
+    background: #3b5998;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3b5998; /* Параметры границы */
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+}
+  
+.VKBtn{
+    background: #597da3;
+    padding: 0px 0px;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #597da3; /* Параметры границы */
+
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+   }
+  
+.VKBtn:hover,
+.VKBtn:focus,
+.VKBtn:focus,
+.VKBtn:active:focus,
+.VKBtn.active:focus,
+.VKBtn.focus,
+.VKBtn:active.focus,
+.VKBtn.active.focus {
+    background: #597da3;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #597da3; /* Параметры границы */
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+}
+
+.TBtn{
+    background: #00aced;
+    padding: 0px 0px;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00aced; /* Параметры границы */
+
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+   }
+  
+.TBtn:hover,
+.TBtn:focus,
+.TBtn:focus,
+.TBtn:active:focus,
+.TBtn.active:focus,
+.TBtn.focus,
+.TBtn:active.focus,
+.TBtn.active.focus {
+    background: #00aced;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00aced; /* Параметры границы */
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+}
+
+.InstagramBtn{
+    background: #ffffff;
+    padding: 0px 0px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ffffff; /* Параметры границы */
+
+        outline: none;
+   }
+  
+.InstagramBtn:hover,
+.InstagramBtn:focus,
+.InstagramBtn:focus,
+.InstagramBtn:active:focus,
+.InstagramBtn.active:focus,
+.InstagramBtn.focus,
+.InstagramBtn:active.focus,
+.InstagramBtn.active.focus {
+    background: #00aced;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00aced; /* Параметры границы */
+    -moz-border-radius:  60px; /* Firefox */
+    -webkit-border-radius:  60px; /* Safari 4 */
+        border-radius:  60px; /* IE 9, Safari 5, Chrome */
+        outline: none;
+}

@@ -1,0 +1,148 @@
+.draggable {
+  opacity: 0.9;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background: #02396d;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1 ease;
+  -webkit-transition: all 0.1s ease;
+}
+
+.draggable:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.draggableBlock {
+  padding: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 250px;
+}
+
+.droppable {
+  margin-bottom: 10px;
+  width: 100px
+}
+
+.InputAnswer {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50px;
+  border: 1px solid red;
+  outline: 0 !important;
+  text-align: center;
+}
+
+.borderGreenSolid {
+  border: 1px solid rgb(29, 126, 4);
+}
+
+.backgroundGrey {
+  background: rgb(224, 220, 220);
+}
+
+.bottom0 {
+  margin-bottom: 0px;
+}
+
+.colorRed {
+  color: red;
+}
+
+.tipDroppableImg {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.ActiveTipDroppableImg {
+  border: 4px double #3a9b8b;
+  width: 110px;
+  height: 110px;
+}
+
+.RightTipDroppableImg {
+  border: 4px double #3a9b8b;
+  width: 110px;
+  height: 110px;
+}
+
+.tipDroppableInput {
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: #02396d;
+  color: white;
+  outline: 0 !important;
+  text-align: center;
+}
+
+.space45 {
+  margin-left: 45px;
+}
+
+.spaceRight45 {
+  margin-right: 45px;
+}
+
+.bottom45 {
+  margin-bottom: 45px;
+}
+
+.sizebig {
+  font-size: 2em;
+}
+
+.Width170Pr {
+  width: 170%;
+}
+
+.VerticalContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  width: 100px
+}
+
+.thumb img {
+  opacity: 0.6;
+  box-shadow: inset 5px 6px 3px rgba(203, 255, 144, 0.4), 3px 3px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(223, 152, 0, 0.7), 0 0 20px 3px Yellow;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+}
+
+.thumb img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.thumb {
+  padding: 5px;
+}
+
+.taskResult {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 65px;
+  width: 100px;
+  height: 100px
+}
+
+.preWrap {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
